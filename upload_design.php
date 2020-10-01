@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-        <head>
+    <head>
                 <title>Bootstrap Example</title>
                 <meta charset="utf-8">
                 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,35 +12,36 @@
                 <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
                 <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.9/css/mdb.min.css" rel="stylesheet">
 
-        <style>
+    <style>
         
-        </style>
-        </head>
+    </style>
+    </head>
 
 <body style="font-family: Comic Sans MS;">
 
 <!--navigation-->
 <nav class="navbar navbar-expand-md navbar-light bg-white sticky-top">
-<div class="container-fluid">
-    <a class="navbar-brand" style="color: #1F6376; font-family: Comic Sans MS; font-weight: bold;" href="http://localhost/website/html1/newhomepage.php">Survey UP</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-    <ul class="navbar-nav ml-auto" style="font-family: Comic Sans MS; font-weight: regular;">
-        <li class="nav-item active">
-            <a class="nav-link" style="color: #1F6376; margin-left: 20px; background-color: white;" href="http://localhost/website/html1/newhomepage.php">Home</a>
-        </li>
-        <li class="nav-item">
-            <a href="newlogout.php"><button class="nav-link" style="color: #1F6376; background-color: white; border-color: #1F6376; border-radius: 10px; padding: 5px 12px; margin-left: 20px;">Log out</button></a>
-        </li>
-        <li class="nav-item">
-            <button class="nav-link" style="color: #D2DFE0; background-color: #1F6376; border-color: none; border-radius: 10px; padding: 5px 12px; margin-left: 20px;" disabled>Sign up</button>
-        </li>
-    </ul>
+    <div class="container-fluid">
+        <a class="navbar-brand" style="color: #1F6376; font-family: Comic Sans MS; font-weight: bold;" href="http://localhost/website/html1/newhomepage.php">Survey UP</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+        
+        <ul class="navbar-nav ml-auto" style="font-family: Comic Sans MS; font-weight: regular;">
+            <li class="nav-item active">
+                <a class="nav-link" style="color: #1F6376; margin-left: 20px; background-color: white;" href="http://localhost/website/html1/newhomepage.php">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="newlogout.php"><button class="nav-link" style="color: #1F6376; background-color: white; border-color: #1F6376; border-radius: 10px; padding: 5px 12px; margin-left: 20px;">Log out</button></a>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" style="color: #D2DFE0; background-color: #1F6376; border-color: none; border-radius: 10px; padding: 5px 12px; margin-left: 20px;" disabled>Sign up</button>
+            </li>
+        </ul>
 
+        </div>
     </div>
-</div>
 </nav>
 
 <div class="container-fluid" style="background-color: #1F6376; height: 600px">
